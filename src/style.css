@@ -3,3 +3,105 @@
   margin: auto;
   padding: 4rem;
 }
+
+body {
+  font-family: 'Baloo Chettan', cursive;
+  background: #134e5e;
+  background: -webkit-linear-gradient(to right, #71b280, #134e5e);
+  background: linear-gradient(to right, #71b280, #134e5e);
+}
+
+h1 {
+  font-family: 'Baloo Chettan', cursive;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+input {
+  font-family: 'Baloo Chettan', cursive;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum';
+  display: inline-block;
+  width: 60%;
+  height: 33px;
+  padding: 4px 11px;
+  color: rgba(0,0,0,0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  outline: none;
+}
+
+input:hover,
+input:active,
+input:focus {
+  color: rgba(0,0,0,1);
+  border-color: #134e5e;
+}
+
+button {
+  margin: 5px;
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+  cursor: pointer;
+  -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+}
+
+button:hover,
+button:active,
+button:focus {
+  opacity: .8;
+  border: 1px solid #134e5e;
+}
+
+
+hr {
+  background-color: #000;
+  border: 0;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+  input {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  button {
+    margin-left: 0;
+  }
+}
